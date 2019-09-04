@@ -1,0 +1,6 @@
+framework module Pods_HPL_Prepay {
+  umbrella header "Pods-HPL Prepay-umbrella.h"
+
+  export *
+  module * { export * }
+}

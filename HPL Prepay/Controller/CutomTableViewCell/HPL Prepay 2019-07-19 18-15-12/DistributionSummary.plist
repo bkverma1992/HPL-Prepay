@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HPL Prepay.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>99FDD2D197C0FB6D665E075EB97BBA3D196D94E6</string>
+				<key>dateExpires</key>
+				<string>01/07/2020</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>99FDD2D197C0FB6D665E075EB97BBA3D196D94E6</string>
+						<key>dateExpires</key>
+						<string>01/07/2020</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>SVProgressHUD.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7E2Z265GXS</string>
+						<key>name</key>
+						<string>Yugasa Software Labs Private Limited</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>7E2Z265GXS.com.yugasa.PayU.in</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>7E2Z265GXS</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>7E2Z265GXS.com.yugasa.PayU.in</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>HPL Prepay.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>771f9f5e-2ded-4df0-a882-70f19598e150</string>
+				<key>name</key>
+				<string>PayUMoneyDeve</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>7E2Z265GXS</string>
+				<key>name</key>
+				<string>Yugasa Software Labs Private Limited</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

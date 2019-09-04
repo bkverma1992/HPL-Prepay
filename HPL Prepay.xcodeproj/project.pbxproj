@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81307D3C22E4540F00548D12 /* DeviceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81307D3B22E4540F00548D12 /* DeviceScreen.swift */; };
+		817B2E0922D0D00A00CFE247 /* RechargeHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B2E0822D0D00A00CFE247 /* RechargeHistoryTableViewCell.swift */; };
+		817B2E0B22D0D05E00CFE247 /* AccountSummeryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B2E0A22D0D05E00CFE247 /* AccountSummeryTableViewCell.swift */; };
+		81BAABC322D0EE40009E1847 /* BillingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BAABC222D0EE40009E1847 /* BillingTableViewCell.swift */; };
+		81D71D5222E18498004150F9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D71D4C22E18498004150F9 /* Service.swift */; };
+		81D71D5322E18498004150F9 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D71D4D22E18498004150F9 /* SWXMLHash.swift */; };
+		81D71D5422E18498004150F9 /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D71D4E22E18498004150F9 /* SWXMLHash+TypeConversion.swift */; };
+		81D71D5522E18498004150F9 /* SoapHttpClientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D71D4F22E18498004150F9 /* SoapHttpClientExtension.swift */; };
+		81D71D5622E18498004150F9 /* SoapHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D71D5122E18498004150F9 /* SoapHttpClient.swift */; };
+		81D71D5922E19D0D004150F9 /* ConvertJsonStringToDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D71D5822E19D0D004150F9 /* ConvertJsonStringToDict.swift */; };
+		81D71D5B22E1CE33004150F9 /* StatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D71D5A22E1CE33004150F9 /* StatusTableViewCell.swift */; };
+		81F7E59522C21C5C00121115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E59422C21C5C00121115 /* AppDelegate.swift */; };
+		81F7E59722C21C5C00121115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E59622C21C5C00121115 /* ViewController.swift */; };
+		81F7E59A22C21C5C00121115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F7E59822C21C5C00121115 /* Main.storyboard */; };
+		81F7E59C22C21C6200121115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F7E59B22C21C6200121115 /* Assets.xcassets */; };
+		81F7E59F22C21C6200121115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F7E59D22C21C6200121115 /* LaunchScreen.storyboard */; };
+		81F7E5A722C2245300121115 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E5A622C2245300121115 /* MenuTableViewCell.swift */; };
+		81F7E5A922C2246D00121115 /* CatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E5A822C2246D00121115 /* CatTableViewCell.swift */; };
+		81F7E5AB22C23D0100121115 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E5AA22C23D0100121115 /* AboutVC.swift */; };
+		81F7E5AD22C23DC300121115 /* TermConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E5AC22C23DC300121115 /* TermConditionVC.swift */; };
+		81F7E5AF22C23DEE00121115 /* ConfigurationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E5AE22C23DEE00121115 /* ConfigurationVC.swift */; };
+		81F7E5B722C2554500121115 /* RechargeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E5B622C2554500121115 /* RechargeVC.swift */; };
+		81F7E5C522C33E9F00121115 /* ConnectionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E5C122C33E9F00121115 /* ConnectionCheck.swift */; };
+		81F7E5C622C33E9F00121115 /* commonAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E5C222C33E9F00121115 /* commonAlertController.swift */; };
+		81F7E5C922C34B9600121115 /* RechargeHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E5C822C34B9600121115 /* RechargeHistoryVC.swift */; };
+		81F7E5CB22C34BB600121115 /* ComplaintsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E5CA22C34BB600121115 /* ComplaintsVC.swift */; };
+		81F7E5CD22C34E6D00121115 /* AccountSummeryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E5CC22C34E6D00121115 /* AccountSummeryVC.swift */; };
+		81F7E5CF22C34E9500121115 /* BillingHistroryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E5CE22C34E9500121115 /* BillingHistroryVC.swift */; };
+		D201312B79F1B59069D2EA10 /* Pods_HPL_Prepay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9C5562F9297CF260113D35 /* Pods_HPL_Prepay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13A5C07BBE4C25EE1AE91169 /* Pods-HPL Prepay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPL Prepay.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPL Prepay/Pods-HPL Prepay.release.xcconfig"; sourceTree = "<group>"; };
+		2B9C5562F9297CF260113D35 /* Pods_HPL_Prepay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPL_Prepay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81307D3B22E4540F00548D12 /* DeviceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScreen.swift; sourceTree = "<group>"; };
+		817B2E0822D0D00A00CFE247 /* RechargeHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechargeHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		817B2E0A22D0D05E00CFE247 /* AccountSummeryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummeryTableViewCell.swift; sourceTree = "<group>"; };
+		81BAABC222D0EE40009E1847 /* BillingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingTableViewCell.swift; sourceTree = "<group>"; };
+		81D71D4C22E18498004150F9 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		81D71D4D22E18498004150F9 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		81D71D4E22E18498004150F9 /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
+		81D71D4F22E18498004150F9 /* SoapHttpClientExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoapHttpClientExtension.swift; sourceTree = "<group>"; };
+		81D71D5022E18498004150F9 /* SWXMLHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWXMLHash.h; sourceTree = "<group>"; };
+		81D71D5122E18498004150F9 /* SoapHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoapHttpClient.swift; sourceTree = "<group>"; };
+		81D71D5722E1979E004150F9 /* HPL Prepay-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HPL Prepay-Bridging-Header.h"; sourceTree = "<group>"; };
+		81D71D5822E19D0D004150F9 /* ConvertJsonStringToDict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertJsonStringToDict.swift; sourceTree = "<group>"; };
+		81D71D5A22E1CE33004150F9 /* StatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTableViewCell.swift; sourceTree = "<group>"; };
+		81F7E59122C21C5C00121115 /* HPL Prepay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HPL Prepay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F7E59422C21C5C00121115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81F7E59622C21C5C00121115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81F7E59922C21C5C00121115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81F7E59B22C21C6200121115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81F7E59E22C21C6200121115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81F7E5A022C21C6200121115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F7E5A622C2245300121115 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		81F7E5A822C2246D00121115 /* CatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewCell.swift; sourceTree = "<group>"; };
+		81F7E5AA22C23D0100121115 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		81F7E5AC22C23DC300121115 /* TermConditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermConditionVC.swift; sourceTree = "<group>"; };
+		81F7E5AE22C23DEE00121115 /* ConfigurationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationVC.swift; sourceTree = "<group>"; };
+		81F7E5B622C2554500121115 /* RechargeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechargeVC.swift; sourceTree = "<group>"; };
+		81F7E5C122C33E9F00121115 /* ConnectionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionCheck.swift; sourceTree = "<group>"; };
+		81F7E5C222C33E9F00121115 /* commonAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commonAlertController.swift; sourceTree = "<group>"; };
+		81F7E5C822C34B9600121115 /* RechargeHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechargeHistoryVC.swift; sourceTree = "<group>"; };
+		81F7E5CA22C34BB600121115 /* ComplaintsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintsVC.swift; sourceTree = "<group>"; };
+		81F7E5CC22C34E6D00121115 /* AccountSummeryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummeryVC.swift; sourceTree = "<group>"; };
+		81F7E5CE22C34E9500121115 /* BillingHistroryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingHistroryVC.swift; sourceTree = "<group>"; };
+		830F636A6C28E784EEC650BB /* Pods-HPL Prepay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPL Prepay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPL Prepay/Pods-HPL Prepay.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81F7E58E22C21C5C00121115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D201312B79F1B59069D2EA10 /* Pods_HPL_Prepay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AF11B962C59617103EF9953 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C5562F9297CF260113D35 /* Pods_HPL_Prepay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81D71D4B22E18498004150F9 /* swiftcodes */ = {
+			isa = PBXGroup;
+			children = (
+				81D71D4C22E18498004150F9 /* Service.swift */,
+				81D71D4D22E18498004150F9 /* SWXMLHash.swift */,
+				81D71D4E22E18498004150F9 /* SWXMLHash+TypeConversion.swift */,
+				81D71D4F22E18498004150F9 /* SoapHttpClientExtension.swift */,
+				81D71D5022E18498004150F9 /* SWXMLHash.h */,
+				81D71D5122E18498004150F9 /* SoapHttpClient.swift */,
+			);
+			path = swiftcodes;
+			sourceTree = "<group>";
+		};
+		81F7E58822C21C5B00121115 = {
+			isa = PBXGroup;
+			children = (
+				81F7E59322C21C5C00121115 /* HPL Prepay */,
+				81F7E59222C21C5C00121115 /* Products */,
+				F0EE9EF1DC003EC2A918CE52 /* Pods */,
+				6AF11B962C59617103EF9953 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81F7E59222C21C5C00121115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81F7E59122C21C5C00121115 /* HPL Prepay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81F7E59322C21C5C00121115 /* HPL Prepay */ = {
+			isa = PBXGroup;
+			children = (
+				81F7E5B022C2407E00121115 /* Modal */,
+				81F7E5B122C2408900121115 /* View */,
+				81F7E5B222C2409000121115 /* Controller */,
+				81F7E59422C21C5C00121115 /* AppDelegate.swift */,
+				81F7E59B22C21C6200121115 /* Assets.xcassets */,
+				81F7E59D22C21C6200121115 /* LaunchScreen.storyboard */,
+				81F7E5A022C21C6200121115 /* Info.plist */,
+			);
+			path = "HPL Prepay";
+			sourceTree = "<group>";
+		};
+		81F7E5B022C2407E00121115 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				81F7E5C222C33E9F00121115 /* commonAlertController.swift */,
+				81D71D5822E19D0D004150F9 /* ConvertJsonStringToDict.swift */,
+				81F7E5C122C33E9F00121115 /* ConnectionCheck.swift */,
+				81307D3B22E4540F00548D12 /* DeviceScreen.swift */,
+				81D71D5722E1979E004150F9 /* HPL Prepay-Bridging-Header.h */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		81F7E5B122C2408900121115 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81F7E59822C21C5C00121115 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81F7E5B222C2409000121115 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81D71D4B22E18498004150F9 /* swiftcodes */,
+				81F7E5B322C240C300121115 /* HomeController */,
+				81F7E5B422C240D100121115 /* MenuController */,
+				81F7E5B822C2555900121115 /* CatController */,
+				81F7E5B522C240DD00121115 /* CutomTableViewCell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81F7E5B322C240C300121115 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				81F7E59622C21C5C00121115 /* ViewController.swift */,
+			);
+			path = HomeController;
+			sourceTree = "<group>";
+		};
+		81F7E5B422C240D100121115 /* MenuController */ = {
+			isa = PBXGroup;
+			children = (
+				81F7E5AA22C23D0100121115 /* AboutVC.swift */,
+				81F7E5AC22C23DC300121115 /* TermConditionVC.swift */,
+				81F7E5AE22C23DEE00121115 /* ConfigurationVC.swift */,
+			);
+			path = MenuController;
+			sourceTree = "<group>";
+		};
+		81F7E5B522C240DD00121115 /* CutomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				81F7E5A622C2245300121115 /* MenuTableViewCell.swift */,
+				81F7E5A822C2246D00121115 /* CatTableViewCell.swift */,
+				817B2E0822D0D00A00CFE247 /* RechargeHistoryTableViewCell.swift */,
+				81BAABC222D0EE40009E1847 /* BillingTableViewCell.swift */,
+				817B2E0A22D0D05E00CFE247 /* AccountSummeryTableViewCell.swift */,
+				81D71D5A22E1CE33004150F9 /* StatusTableViewCell.swift */,
+			);
+			path = CutomTableViewCell;
+			sourceTree = "<group>";
+		};
+		81F7E5B822C2555900121115 /* CatController */ = {
+			isa = PBXGroup;
+			children = (
+				81F7E5B622C2554500121115 /* RechargeVC.swift */,
+				81F7E5C822C34B9600121115 /* RechargeHistoryVC.swift */,
+				81F7E5CC22C34E6D00121115 /* AccountSummeryVC.swift */,
+				81F7E5CE22C34E9500121115 /* BillingHistroryVC.swift */,
+				81F7E5CA22C34BB600121115 /* ComplaintsVC.swift */,
+			);
+			path = CatController;
+			sourceTree = "<group>";
+		};
+		F0EE9EF1DC003EC2A918CE52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				830F636A6C28E784EEC650BB /* Pods-HPL Prepay.debug.xcconfig */,
+				13A5C07BBE4C25EE1AE91169 /* Pods-HPL Prepay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81F7E59022C21C5C00121115 /* HPL Prepay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F7E5A322C21C6200121115 /* Build configuration list for PBXNativeTarget "HPL Prepay" */;
+			buildPhases = (
+				C2DDF77E20EA407A8D318EE1 /* [CP] Check Pods Manifest.lock */,
+				81F7E58D22C21C5C00121115 /* Sources */,
+				81F7E58E22C21C5C00121115 /* Frameworks */,
+				81F7E58F22C21C5C00121115 /* Resources */,
+				F5C04BF812D2B109D44C597A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HPL Prepay";
+			productName = "HPL Prepay";
+			productReference = 81F7E59122C21C5C00121115 /* HPL Prepay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81F7E58922C21C5B00121115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yugasalabs-28";
+				TargetAttributes = {
+					81F7E59022C21C5C00121115 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 81F7E58C22C21C5B00121115 /* Build configuration list for PBXProject "HPL Prepay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81F7E58822C21C5B00121115;
+			productRefGroup = 81F7E59222C21C5C00121115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81F7E59022C21C5C00121115 /* HPL Prepay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81F7E58F22C21C5C00121115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F7E59F22C21C6200121115 /* LaunchScreen.storyboard in Resources */,
+				81F7E59C22C21C6200121115 /* Assets.xcassets in Resources */,
+				81F7E59A22C21C5C00121115 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2DDF77E20EA407A8D318EE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HPL Prepay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5C04BF812D2B109D44C597A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HPL Prepay/Pods-HPL Prepay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPL Prepay/Pods-HPL Prepay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81F7E58D22C21C5C00121115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F7E5A922C2246D00121115 /* CatTableViewCell.swift in Sources */,
+				81F7E5AB22C23D0100121115 /* AboutVC.swift in Sources */,
+				81D71D5622E18498004150F9 /* SoapHttpClient.swift in Sources */,
+				81D71D5B22E1CE33004150F9 /* StatusTableViewCell.swift in Sources */,
+				81F7E5AD22C23DC300121115 /* TermConditionVC.swift in Sources */,
+				81F7E5CD22C34E6D00121115 /* AccountSummeryVC.swift in Sources */,
+				81F7E5C622C33E9F00121115 /* commonAlertController.swift in Sources */,
+				817B2E0B22D0D05E00CFE247 /* AccountSummeryTableViewCell.swift in Sources */,
+				81F7E5CB22C34BB600121115 /* ComplaintsVC.swift in Sources */,
+				81F7E5AF22C23DEE00121115 /* ConfigurationVC.swift in Sources */,
+				81D71D5922E19D0D004150F9 /* ConvertJsonStringToDict.swift in Sources */,
+				81F7E5CF22C34E9500121115 /* BillingHistroryVC.swift in Sources */,
+				81D71D5522E18498004150F9 /* SoapHttpClientExtension.swift in Sources */,
+				81307D3C22E4540F00548D12 /* DeviceScreen.swift in Sources */,
+				81BAABC322D0EE40009E1847 /* BillingTableViewCell.swift in Sources */,
+				81D71D5222E18498004150F9 /* Service.swift in Sources */,
+				81F7E59722C21C5C00121115 /* ViewController.swift in Sources */,
+				81F7E5C922C34B9600121115 /* RechargeHistoryVC.swift in Sources */,
+				81D71D5322E18498004150F9 /* SWXMLHash.swift in Sources */,
+				81F7E5B722C2554500121115 /* RechargeVC.swift in Sources */,
+				81F7E5C522C33E9F00121115 /* ConnectionCheck.swift in Sources */,
+				81F7E59522C21C5C00121115 /* AppDelegate.swift in Sources */,
+				81F7E5A722C2245300121115 /* MenuTableViewCell.swift in Sources */,
+				81D71D5422E18498004150F9 /* SWXMLHash+TypeConversion.swift in Sources */,
+				817B2E0922D0D00A00CFE247 /* RechargeHistoryTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81F7E59822C21C5C00121115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F7E59922C21C5C00121115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81F7E59D22C21C6200121115 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F7E59E22C21C6200121115 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81F7E5A122C21C6200121115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81F7E5A222C21C6200121115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81F7E5A422C21C6200121115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830F636A6C28E784EEC650BB /* Pods-HPL Prepay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9Z2QW4HGM6;
+				INFOPLIST_FILE = "HPL Prepay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prepayMeters.in;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DistrHPL;
+				SWIFT_OBJC_BRIDGING_HEADER = "HPL Prepay/Modal/HPL Prepay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		81F7E5A522C21C6200121115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A5C07BBE4C25EE1AE91169 /* Pods-HPL Prepay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9Z2QW4HGM6;
+				INFOPLIST_FILE = "HPL Prepay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prepayMeters.in;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DistrHPL;
+				SWIFT_OBJC_BRIDGING_HEADER = "HPL Prepay/Modal/HPL Prepay-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81F7E58C22C21C5B00121115 /* Build configuration list for PBXProject "HPL Prepay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F7E5A122C21C6200121115 /* Debug */,
+				81F7E5A222C21C6200121115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F7E5A322C21C6200121115 /* Build configuration list for PBXNativeTarget "HPL Prepay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F7E5A422C21C6200121115 /* Debug */,
+				81F7E5A522C21C6200121115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81F7E58922C21C5B00121115 /* Project object */;
+}
